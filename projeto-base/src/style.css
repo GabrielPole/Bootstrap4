@@ -3,3 +3,35 @@
   top: 0;
 }
 */
+.imagem-carrossel-um {
+  object-fit: cover;
+  object-position: 0 80%;
+  height: 400px;
+}
+
+.imagem-carrossel-dois {
+  object-fit: cover;
+  /*object-position: 0 80%;*/
+  height: 400px;
+}
+
+.fonte-titulo{
+  font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+  color: darkred;
+}
+/*
+Relembrando que as classes de espaçamento do Bootstrap trabalham 
+com valores de 0 a 5, o código acima diz que cada um dos "lados" 
+da margem tem um valor de espaçamento diferente. Comparando com 
+o mesmo código em CSS:
+
+mt-1 = margin-top: 1rem;
+mb-2 = margin-bottom: 2rem;
+ml-3 = margin-left: 3rem;
+mr-4 = margin-right: 4rem;
+px-2 e px-4 = padding: 4rem 2rem;
+
+*/
