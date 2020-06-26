@@ -3,6 +3,7 @@
   top: 0;
 }
 */
+
 .imagem-carrossel-um {
   object-fit: cover;
   object-position: 0 80%;
@@ -20,7 +21,7 @@
 }
 
 .cor-especial{
-  color: darkred;
+  color: darkred !important;
 }
 /*
 Relembrando que as classes de espaçamento do Bootstrap trabalham 
@@ -35,3 +36,31 @@ mr-4 = margin-right: 4rem;
 px-2 e px-4 = padding: 4rem 2rem;
 
 */
+
+.botao-cor-especial{
+  background-color: darkred;
+  color: white;
+}
+
+.borda-cor-especial{
+  border-color: darkred;
+}
+
+.card-posicao-imagem{
+  object-fit: cover;
+  height: 200px;
+}
+.card-largura{
+  max-width: 18rem;
+}
+
+/*O sistema de grid nos permite indicar individualmente qual a quantidade de colunas 
+(em um espaço de 12 colunas) cada elemento irá ocupar, dependendo do tamanho da tela.
+ Em telas menores o espaço total de colunas pode ser ocupado por somente um elemento, 
+ enquanto em telas mais largas, podemos acomodar uma quantidade maior de elementos por linha.
+ 
+ container 
+|----- linha
+        |----- colunas
+ 
+ */
